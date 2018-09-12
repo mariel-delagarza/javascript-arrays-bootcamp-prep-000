@@ -4,8 +4,11 @@ var chocolateBars = [
   "kitkat",
   "skittles"];
   function addElementToBeginningOfArray() {
-    var dogs = ["dog1", "dog2", "dog3"]
-    return ["dog4", ... "dogs"]
+    var dogs = [
+      'dog1',
+      'dog2', 
+      'dog3']
+    return dogs.push('dog4')
     
   }
   function destructiveAddElementToBeginningOfArray() {
