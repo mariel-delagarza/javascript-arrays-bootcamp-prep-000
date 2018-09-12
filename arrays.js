@@ -3,7 +3,7 @@ var chocolateBars = [
   "hundred grand",
   "kitkat",
   "skittles"];
-  function addElementToBeginningOfArray() {
+function addElementToBeginningOfArray() {
     var dogs = [
       'dog1',
       'dog2', 
