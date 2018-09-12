@@ -3,15 +3,12 @@ var chocolateBars = [
   "hundred grand",
   "kitkat",
   "skittles"];
-function addElementToBeginningOfArray() {
-    var dogs = [
-      'dog1',
-      'dog2', 
-      'dog3']
-    return dogs.push('dog4')
-    
-  }
-  function destructiveAddElementToBeginningOfArray() {
-    cats = [cat1, cat2, cat3]
-    return 
+function addElementToBeginningOfArray(array, item) {
+    var newArray = array;
+    newArray.push(item);
+    return newArray;
+      }
+  function destructiveAddElementToBeginningOfArray(array, item) {
+    array.unshift(item);
+    return array;
   }
