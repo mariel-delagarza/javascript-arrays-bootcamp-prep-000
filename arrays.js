@@ -4,7 +4,7 @@ var chocolateBars = [
   "kitkat",
   "skittles"];
   function addElementToBeginningOfArray() {
-    var dogs = [dog1, dog2, dog3]
+    var dogs = ["dog1", "dog2", "dog3"]
     return ["dog4", ... "dogs"]
     
   }
